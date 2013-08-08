@@ -20,6 +20,7 @@ body header figure {
   height: 60px;
   outline : 1px dashed #108;
   margin: 10px 250px;
+  float: left;
 }
 
 body header nav {
@@ -27,4 +28,10 @@ body header nav {
   height: 50px;
   outline : 1px dashed #108;
   margin: 20px 0 0 650px;
+}
+
+body header .slider {
+  height: 440px;
+  outline : 1px dashed #108;
+  margin-top: 15px;
 }
