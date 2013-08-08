@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("https://f.cloud.github.com/assets/3403583/925439/dd069084-ff78-11e2-9c43-2f3ca323a369.jpg");
   width: 1490px;
   height: 1857px;
 }
+
+body header {
+  outline : 2px solid #777;
+  height: 520px;
+}
+
