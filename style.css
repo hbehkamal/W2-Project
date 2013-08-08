@@ -21,3 +21,10 @@ body header figure {
   outline : 1px dashed #108;
   margin: 10px 250px;
 }
+
+body header nav {
+  width: 590px;
+  height: 50px;
+  outline : 1px dashed #108;
+  margin: 20px 0 0 650px;
+}
