@@ -105,6 +105,14 @@ body div.main div.floor2 {
   outline : 1px dashed #108;
 }
 
+body div.main div.floor2 > div {
+  float: left;
+  width: 240px;
+  height: 290px;
+  margin-left: 2px;
+  outline: 2px dashed #098;
+}
+
 body footer {
   padding: 1px;
   outline : 5px solid #098;
