@@ -57,3 +57,21 @@ body div.main div.floor2 {
   margin: 10px auto 0;
   outline : 1px dashed #108;
 }
+
+body footer {
+  padding: 1px;
+  outline : 5px solid #098;
+  height: 410px;
+}
+
+body footer div.content div:first-child {
+  margin-left: 250px;
+}
+
+body footer div.content div {
+  float: left;
+  width: 245px;
+  height: 260px;
+  outline: 2px dashed #098;
+  margin-top: 30px;
+}
