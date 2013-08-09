@@ -13,6 +13,7 @@ body {
 body header {
   padding: 1px;
   outline : 2px solid #777;
+  height: 520px;
 }
 
 body header figure {
@@ -39,10 +40,12 @@ body header .slider {
 body div.main {
   padding: 1px;
   outline : 2px solid #777;
+  height: 920px;
 }
 
 body div.main div.floor1 {
   width: 970px;
+  height: 500px;
   margin: 30px auto 0;
   outline : 1px dashed #108;
 }
@@ -97,6 +100,7 @@ body div.main div.floor1 > div:nth-child(3) > div:last-child {
 
 body div.main div.floor2 {
   width: 970px;
+  height: 350px;
   margin: 10px auto 0;
   outline : 1px dashed #108;
 }
@@ -112,6 +116,7 @@ body div.main div.floor2 > div {
 body footer {
   padding: 1px;
   outline : 5px solid #098;
+  height: 410px;
 }
 
 body footer div.content div:first-child {
