@@ -5,4 +5,18 @@
 
 div.train {
   width : 10000px;
+  min-height: 300px;
+  background-color: #904;
+}
+
+div.home {
+  width: 1360px;
+  background-color: #fafafa;
+}
+
+div.home div.container {
+  width: 950px;
+  height: 1000px;
+  background-color: rgba(100,100,100,0.1);
+  margin: 0 auto;
 }
