@@ -1,4 +1,4 @@
-W2-Homework
+W2-Project
 ==========
 
-The Homework Of W2 Class.
+The Final Project Of W2 Class.
