@@ -95,6 +95,11 @@ div.floor div.midpanel {
   -ms-transform: scale(0.81);
   -o-transform: scale(0.81);
   transform: scale(0.81);
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel.last {
@@ -111,6 +116,11 @@ div.floor div.panel1 div.bot_panel {
   background-color: #c85141;
   width: 260px;
   margin: 15px auto;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel1 div.top_panel {
@@ -127,10 +137,20 @@ div.floor div.panel1 div.top_panel div.item {
 
 div.floor div.panel1 div.top_panel div.item1 {
   background-color: #50b2a2;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel1 div.top_panel div.item2 {
   background-color: #50b28a;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel3 {
@@ -142,10 +162,15 @@ div.floor div.panel3 div {
 }
 
 div.floor div.panel3 div.top_panel {
-  background-color: #c85141;
+  background-color: #d8457a;
   width: 260px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel3 div.bot_panel {
@@ -160,9 +185,30 @@ div.floor div.panel3 div.bot_panel div.item {
 }
 
 div.floor div.panel3 div.bot_panel div.item1 {
-  background-color: #50b2a2;
+  background-color: #d8733b;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
 }
 
 div.floor div.panel3 div.bot_panel div.item2 {
-  background-color: #50b28a;
+  background-color: #d9912a;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+
+
+div.floor div.panel3 div.bot_panel div.item2:hover,
+div.floor div.panel3 div.bot_panel div.item1:hover,
+div.floor div.panel3 div.top_panel:hover,
+div.floor div.panel1 div.top_panel div.item2:hover,
+div.floor div.panel1 div.top_panel div.item1:hover,
+div.floor div.panel1 div.bot_panel:hover,
+div.floor div.midpanel:hover{
+  background-color: #323232;
 }
