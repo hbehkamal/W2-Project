@@ -154,7 +154,7 @@ div.floor div.panel1 div.top_panel div.item2 {
 }
 
 div.floor div.panel3 {
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 div.floor div.panel3 div {
@@ -174,7 +174,7 @@ div.floor div.panel3 div.top_panel {
 }
 
 div.floor div.panel3 div.bot_panel {
-  padding-top: 30px;
+  padding-top: 18px;
   padding-left: 3px;
 }
 div.floor div.panel3 div.bot_panel div.item {
