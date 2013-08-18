@@ -68,3 +68,56 @@ header div.social span:hover {
 }
 
 /*------------------- Main -------------------*/
+
+div.floor {
+  padding: 1px;
+}
+
+
+div.floor div.panel {
+  width: 300px;
+  height: 300px;
+  float: left;
+  outline: 1px solid red;
+  margin-top: 100px;
+}
+
+
+div.floor div.midpanel {
+  background-color: #0fa2cb;
+}
+
+div.floor div.panel.last {
+  float: none;
+  margin-left: 600px;
+}
+
+div.floor div.panel1 div{
+  height: 110px;
+}
+
+div.floor div.panel1 div.bot_panel {
+  margin-top: 20px;
+  background-color: #c85141;
+  width: 260px;
+  margin: 15px auto;
+}
+
+div.floor div.panel1 div.top_panel {
+  padding-top: 30px;
+}
+
+div.floor div.panel1 div.top_panel div.item {
+  width: 120px;
+  height: 110px;
+  float: left;
+  margin-left: 18px;
+}
+
+div.floor div.panel1 div.top_panel div.item1 {
+  background-color: #50b2a2;
+}
+
+div.floor div.panel1 div.top_panel div.item2 {
+  background-color: #50b28a;
+}
