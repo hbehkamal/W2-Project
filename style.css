@@ -433,15 +433,18 @@ div.container {
 }
 
 
-/*--------------- end About Page ---------------*/
+/*--------------- End About Page ---------------*/
+
+/*--------------- Begin Group Page ---------------*/
 
 /*____General______*/
 
 .grouppage {
-  background-color: #50b1a0;
+  background-color: #50b189;;
 }
-.grouppage .container {
+.grouppage .contaienr {
   width: 1200px;
+  margin: 0 auto;
 }
 
 
@@ -500,4 +503,27 @@ div.container {
 
 .grouppage header .social span a:hover {
   color: #fff;
+}
+
+
+/*_____ End Header _____*/
+
+/*_____ Start Main Part _____*/
+
+
+.grouppage .main {
+  margin-top: 100px;
+}
+
+.grouppage .main .t_panel {
+  width: 900px;
+  margin: 100px auto 20px;
+}
+
+.grouppage .main .t_panel  span {
+  font-family: 'Gruppo', cursive;
+  font-size: 32px;
+  font-weight: 100;
+  color: #fafafa;
+  text-indent: 15px;
 }
