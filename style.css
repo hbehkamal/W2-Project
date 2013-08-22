@@ -355,7 +355,7 @@ div.container {
 }
 
 .aboutpage header .social span a {
-  color: #ccc;
+  color: rgba(220,220,220,0.5);
   text-decoration: none;
   cursor: pointer;
   font-size: 25px;
@@ -368,5 +368,55 @@ div.container {
 }
 
 .aboutpage header .social span a:hover {
-  color: #000;
+  color: #fff;
 }
+
+/*____Main______*/
+
+.aboutpage .main .tpanel .content {
+  width: 950px;
+  margin: 100px auto 20px;
+}
+
+.aboutpage .main .tpanel .content span {
+  font-family: 'Gruppo', cursive;
+  font-size: 32px;
+  font-weight: 100;
+  color: #fafafa;
+  text-align: justify;
+}
+
+.aboutpage .main .tpanel .content .footnote {
+  border-top: 1px solid rgba(220,220,220,0.7);
+  text-align: right;
+  color: rgba(220,220,220,0.7);
+  font-family: 'Gruppo', cursive;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 220px;
+}
+
+.aboutpage .main .bpanel {
+  width: 920px;
+  margin: 50px auto 10px;
+}
+
+.aboutpage .main .bpanel div {
+  float: left;
+  width: 450px;
+  color: #fafafa;
+  font-family: 'Gruppo', cursive;
+  margin-left: 10px;
+}
+
+/*____footer______*/
+.homepage footer .copyright p {
+  color : #666;
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+
+/*--------------- end About Page ---------------*/
