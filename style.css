@@ -527,3 +527,83 @@ div.container {
   color: #fafafa;
   text-indent: 15px;
 }
+
+.grouppage .main .b_panel {
+  width: 950px;
+  margin: 100px auto 50px;
+}
+
+.grouppage .main .b_panel:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.grouppage .main .b_panel .gal {
+  float: left;
+  width: 300px;
+  margin: 0 8px;
+  background-color: #fafafa;
+}
+
+.grouppage .main .b_panel .gal figure img {
+  display: block;
+  margin: 15px auto;
+}
+
+.grouppage .main .b_panel .gal a.int {
+  text-decoration: none;
+  color: #50b189 !important;
+  display: block;
+  margin-bottom: 20px;
+  font-family: 'Gruppo', cursive;
+  margin-left: 10px;
+}
+
+.grouppage .main .b_panel .gal a.int .name h3 {
+  font-size: 25px;
+}
+
+.grouppage .main .b_panel .gal a.int .name span {
+  font-family: 'Tulpen One',cursive;
+  opacity: 0.8;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+.grouppage .main .b_panel .gal .explain span {
+  color: #333;
+  display: block;
+  margin: 10px;
+  font-family: Arial;
+}
+
+.grouppage .main .b_panel .gal .social span a {
+  color: rgba(220,220,220,0.5);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 25px;
+  display: block;
+  -webkit-transition: color 300ms;
+  -moz-transition: color 300ms;
+  -ms-transition: color 300ms;
+  -o-transition: color 300ms;
+  transition: color 300ms;
+}
+
+.grouppage .main .b_panel .gal .social {
+  width: 202px;
+  display: block;
+  margin: 50px auto 20px;
+}
+
+
+.grouppage .main .b_panel .gal .social span {
+  margin-left: 5px;
+}
+
+
+.grouppage .main .b_panel .gal .social span a:hover {
+  color: #333;
+}
+
