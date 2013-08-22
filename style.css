@@ -1,4 +1,5 @@
 /*------------------- General -------------------*/
+
 * {
   margin: 0;
   padding: 0;
@@ -76,6 +77,7 @@ div.container {
 
 
 /*____panel1______*/
+
 .homepage div.floor div.panel.last {
   float: none;
   margin-left: 600px;
@@ -151,6 +153,7 @@ div.container {
 }
 
 /*____panel2(Mid)______*/
+
 .homepage div.floor div.midpanel {
   background-color: #0fa2cb;
   -webkit-transform: scale(0.81);
@@ -189,6 +192,7 @@ div.container {
 }
 
 /*____panel3______*/
+
 .homepage div.floor div.panel3 {
   padding-top: 30px;
 }
@@ -271,6 +275,7 @@ div.container {
 }
 
 /*____General Panel1______*/
+
 .homepage div.floor div.panel3 div.bot_panel div.item2:hover,
 .homepage div.floor div.panel3 div.bot_panel div.item1:hover,
 .homepage div.floor div.panel3 div.top_panel:hover,
@@ -295,6 +300,7 @@ div.container {
 
 
 /*____footer______*/
+
 .homepage footer .copyright p {
   color : #666;
   display: block;
@@ -305,7 +311,9 @@ div.container {
 
 
 /*--------------- End Home Page ---------------*/
+
 /*--------------- Begin About Page ---------------*/
+
 /*____General______*/
 .aboutpage {
   background-color: #50b1a0;
@@ -410,7 +418,13 @@ div.container {
 }
 
 /*____footer______*/
-.homepage footer .copyright p {
+
+.aboutpage footer {
+  margin: 0 100px;
+  padding-top: 100px;
+}
+
+.aboutpage footer .copyright p {
   color : #666;
   display: block;
   text-align: center;
