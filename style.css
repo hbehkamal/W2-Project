@@ -2,25 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial;
 }
 
-div.train {
-  width : 10000px;
-  min-height: 300px;
+body {
   background-color: #fafafa;
 }
 
-div.homeincluder {
-  width: 1360px;
-}
-
-div.home {
-  width: 1360px;
-  background-color: #fafafa;
-}
-
-div.home div.container {
+div.container {
   width: 950px;
   margin: 0 auto;
 }
@@ -42,18 +30,22 @@ div.home div.container {
 }
 
 .homepage header div.social {
-  margin-left: auto;
-  margin-top: 25px;
   width: 250px;
+  margin-left: auto;
+  margin-top: 20px;
 }
 
 .homepage header div.social span {  
   float: left;
 }
 
+.homepage header .social span {
+  margin-left: 15px;
+}
 
-.homepage header div.social span {
+.homepage header .social span a {
   color: #ccc;
+  text-decoration: none;
   cursor: pointer;
   font-size: 25px;
   display: block;
@@ -64,7 +56,7 @@ div.home div.container {
   transition: color 300ms;
 }
 
-.homepage header div.social span:hover {
+.homepage header .social span a:hover {
   color: #000;
 }
 
@@ -75,7 +67,6 @@ div.home div.container {
   margin: 0 auto;
 }
 
-
 .homepage div.floor div.panel {
   width: 300px;
   height: 300px;
@@ -84,20 +75,7 @@ div.home div.container {
 }
 
 
-.homepage div.floor div.midpanel {
-  background-color: #0fa2cb;
-  -webkit-transform: scale(0.81);
-  -moz-transform: scale(0.81);
-  -ms-transform: scale(0.81);
-  -o-transform: scale(0.81);
-  transform: scale(0.81);
-  -webkit-transition: all 400ms;
-  -moz-transition: all 400ms;
-  -ms-transition: all 400ms;
-  -o-transition: all 400ms;
-  transition: all 400ms;
-}
-
+/*____panel1______*/
 .homepage div.floor div.panel.last {
   float: none;
   margin-left: 600px;
@@ -140,6 +118,29 @@ div.home div.container {
   transition: all 400ms;
 }
 
+.homepage div.floor div.panel1 div.top_panel div.item a,
+.homepage div.floor div.panel1 div.bot_panel a {
+  text-decoration: none;
+}
+
+.homepage div.floor div.panel1 div.top_panel div.item a i,
+.homepage div.floor div.panel1 div.bot_panel a i {
+  font-size: 60px;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.homepage div.floor div.panel1 div.top_panel div.item a span,
+.homepage div.floor div.panel1 div.bot_panel a span {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+  color: white;
+} 
+
 .homepage div.floor div.panel1 div.top_panel div.item2 {
   background-color: #50b28a;
   -webkit-transition: all 400ms;
@@ -149,6 +150,45 @@ div.home div.container {
   transition: all 400ms;
 }
 
+/*____panel2(Mid)______*/
+.homepage div.floor div.midpanel {
+  background-color: #0fa2cb;
+  -webkit-transform: scale(0.81);
+  -moz-transform: scale(0.81);
+  -ms-transform: scale(0.81);
+  -o-transform: scale(0.81);
+  transform: scale(0.81);
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.homepage div.floor div.midpanel a,
+.homepage div.floor div.midpanel a {
+  text-decoration: none;
+}
+
+.homepage div.floor div.midpanel a i,
+.homepage div.floor div.midpanel a i {
+  font-size: 180px;
+  padding: 30px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.homepage div.floor div.midpanel a span,
+.homepage div.floor div.midpanel a span {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+  color: white;
+}
+
+/*____panel3______*/
 .homepage div.floor div.panel3 {
   padding-top: 30px;
 }
@@ -198,7 +238,39 @@ div.home div.container {
   transition: all 400ms;
 }
 
+.homepage div.floor div.panel3 div.top_panel a,
+.homepage div.floor div.panel3 div.bot_panel a {
+  text-decoration: none;
+}
 
+.homepage div.floor div.panel3 div.top_panel a i,
+.homepage div.floor div.panel3 div.bot_panel a i {
+  font-size: 60px;
+  padding: 8px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+
+.homepage div.floor div.panel3 div.top_panel a span,
+.homepage div.floor div.panel3 div.bot_panel a span {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  font-family: 'Gruppo', cursive;
+  color: white;
+} 
+
+.homepage div.floor div.panel1 div.top_panel div.item2 {
+  background-color: #50b28a;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  transition: all 400ms;
+}
+
+/*____General Panel1______*/
 .homepage div.floor div.panel3 div.bot_panel div.item2:hover,
 .homepage div.floor div.panel3 div.bot_panel div.item1:hover,
 .homepage div.floor div.panel3 div.top_panel:hover,
@@ -221,10 +293,13 @@ div.home div.container {
   box-sizing: border-box;
 }
 
-.homepage footer p {
+
+/*____footer______*/
+.homepage footer .copyright p {
   color : #666;
-  margin-top: 80px;
+  display: block;
   text-align: center;
+  margin-top: 80px;
   margin-bottom: 10px;
 }
 
