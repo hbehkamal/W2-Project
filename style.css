@@ -306,6 +306,67 @@ div.container {
 
 /*--------------- End Home Page ---------------*/
 /*--------------- Begin About Page ---------------*/
-.titr h2 {
+/*____General______*/
+.aboutpage {
+  background-color: #50b1a0;
+}
+.aboutpage .container {
+  width: 1200px;
+}
+
+/*____header______*/
+
+.aboutpage header {
+  padding: 1px;
+  margin: 60px 0; 
+}
+
+.aboutpage header h1 {
+  float: left;
+  font-size: 70px;
+  display: block;
+  font-weight: 300;
   font-family: 'Gruppo', cursive;
+  letter-spacing: -2px;
+  color: #fafafa;
+}
+
+.aboutpage header .menu {
+  font-size: 30px;
+  display: block;
+  font-weight: 300;
+  font-family: 'Gruppo', cursive;
+  letter-spacing: -2px;
+  color: #fafafa;
+}
+
+.aboutpage header div.social {
+  width: 250px;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.aboutpage header div.social span {  
+  float: left;
+}
+
+.aboutpage header .social span {
+  margin-left: 15px;
+}
+
+.aboutpage header .social span a {
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 25px;
+  display: block;
+  -webkit-transition: color 300ms;
+  -moz-transition: color 300ms;
+  -ms-transition: color 300ms;
+  -o-transition: color 300ms;
+  transition: color 300ms;
+}
+
+.aboutpage header .social span a:hover {
+  color: #000;
 }
