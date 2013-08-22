@@ -525,7 +525,7 @@ div.container {
   font-size: 32px;
   font-weight: 100;
   color: #fafafa;
-  text-indent: 15px;
+  text-indent: 3px;
 }
 
 .grouppage .main .b_panel {
@@ -544,6 +544,7 @@ div.container {
   width: 300px;
   margin: 0 8px;
   background-color: #fafafa;
+  cursor: pointer;
 }
 
 .grouppage .main .b_panel .gal figure img {
@@ -607,3 +608,16 @@ div.container {
   color: #333;
 }
 
+/*____footer______*/
+
+.grouppage footer {
+  margin: 0 100px;
+  padding-top: 100px;
+}
+
+.grouppage footer .copyright p {
+  color : #666;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
