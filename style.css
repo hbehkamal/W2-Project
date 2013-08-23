@@ -702,6 +702,66 @@ div.container {
 
 /*_____ Start Main Part _____*/
 
+.feedbackpage .main {
+  width: 900px;
+  margin: 100px auto 15px;
+}
+
+.feedbackpage .main input[type="text"] {
+  width: 400px;
+  height: 70px;
+  background-color: #EFD2A9;
+  border: none;
+  border-left: 4px solid #CB5132;
+  color: #DC9F47;
+  margin: 10px;
+  font-size: 30px;
+  text-indent: 10px;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  font-family: 'Gruppo', cursive;
+  font-weight: 100;
+}
+
+.feedbackpage .main input[type="text"]:focus {
+  background-color: #fafafa;
+  color: #C3293A;
+}
+
+
+.feedbackpage .main input.comment {
+  width: 830px;
+  height: 150px;
+}
+
+
+.feedbackpage .main input[type="submit"] {
+  width: 180px;
+  font-family: 'Gruppo', cursive;
+  height: 80px;
+  background-color: #fafafa;
+  border: none;
+  color: #DC9F47;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 55px;
+  display: block;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.feedbackpage .main input[type="submit"]:hover {
+  background-color: #EFD2A9;
+}
+
+
 /*_____ End Main Part _____*/
 
 
@@ -713,7 +773,7 @@ div.container {
 }
 
 .feedbackpage footer .copyright p {
-  color : #666;
+  color : #ddd;
   display: block;
   text-align: center;
   margin-bottom: 10px;
