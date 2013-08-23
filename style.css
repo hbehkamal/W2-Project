@@ -857,7 +857,38 @@ div.container {
 
 /*_____ Start Main Part _____*/
 
+.contactpage .main .panels {
+  width: 1000px;
+  margin: 200px auto 120px;
+}
 
+.contactpage .main .panels:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.contactpage .main .panels .panel {
+  width: 300px;
+  float: left;
+  margin-left: 30px;
+}
+
+.contactpage .main .panels .panel h3,
+.contactpage .main .panels .panel span {
+  font-family: 'Gruppo', cursive;
+  color: white;
+  display: block;
+}
+
+.contactpage .main .panels .panel h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.contactpage .main .panels .panel span {
+  font-family: cursive ;
+}
 
 
 /*_____ End Main Part _____*/
