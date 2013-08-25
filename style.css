@@ -1002,6 +1002,9 @@ div.container {
   width: 460px;
 }
 
+.blogpage .main .panels .panel {
+  float: left;
+}
 
 
 /*_____ End Main Part _____*/
